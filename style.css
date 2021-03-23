@@ -1,0 +1,19 @@
+#header {
+    text-align: center;
+    background-color: CDCDCD;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 90px;
+}
+
+#header img{
+    height: 100px;
+    width: 150px;
+    top: 6;
+    left: 20;
+    position: absolute;
+    transition: transform .2s; /* Animation */
+}
+
+#header img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
